@@ -8,9 +8,6 @@
 
 import sys
 
-if len(sys.argv) == 2:
-    print("usage: please the name")
-    sys.exit()
 
 full_name = " ".join(sys.argv[1:])
 
